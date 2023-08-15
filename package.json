@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "format": "prettier --write #.js"
+    "format": "prettier --write #.js",
+    "dev": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -19,6 +20,7 @@
   },
   "homepage": "https://github.com/Aektawan/Node-RES#readme",
   "devDependencies": {
+    "nodemon": "^3.0.1",
     "prettier": "^3.0.1"
   },
   "dependencies": {
@@ -26,20 +28,3 @@
     "express": "^4.18.2"
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
