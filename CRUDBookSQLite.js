@@ -4,7 +4,7 @@ const app = express();
 
 const db = new sqlite3.Database('./Database/Book.sqlite');
 
-app.use(express.join());
+app.use(express.json());
 
 db.run(`CREATE TABLE IF NOT EXISTS books (
     id INTEGER PRIMARY KEY,
